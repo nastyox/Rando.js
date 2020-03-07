@@ -1,5 +1,6 @@
 # Rando.js  
 The world's easiest, most powerful random function.  
+
 <img src="http://randojs.com/images/smallsize.png" height="20"/>  
 
 
