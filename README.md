@@ -1,9 +1,11 @@
 # Rando.js  
 The world's easiest, most powerful random function.  
 <img src="http://randojs.com/images/smallsize.png" height="20"/>  
+
 ---  
 ## V. 1.0.0  
 ---  
+
 ### Explanation  
 [Rando.js](https://randojs.com) helps JavaScript developers code randomness more simply and readably. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered. The best part? Our commands are extermely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  
   
@@ -49,7 +51,7 @@ The world's easiest, most powerful random function.
    // ANY invalid arguments return false  
   
   
-#### &#8674; Prevent repetitions by grabbing a sequence and looping through it  
+### &#8674; Prevent repetitions by grabbing a sequence and looping through it  
   
    randoSequence(5)  
    //a random integer between 5 and 10 (could be 5 or 10)  
