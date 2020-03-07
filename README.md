@@ -1,8 +1,9 @@
-# Rando.js  
-The world's easiest, most powerful random function.  
+<div align="center">
+  # Rando.js  
+  The world's easiest, most powerful random function.  
 
-<img src="http://randojs.com/images/smallsize.png" height="20"/>  
-
+  <img src="http://randojs.com/images/smallsize.png" height="20"/>  
+</div>
 ## V. 1.0.0  
 
 
