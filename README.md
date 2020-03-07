@@ -14,7 +14,7 @@ The world's easiest, most powerful random function.
    ###### <script src="https://<span></span>randojs.com/1.0.0.js"></script>  
    **Step 2:** Use any of the commands explained at [https://randojs.com/](https://randojs.com)</a> in the document's JavaScript.  
   
----  
+###  
   
 ### Examples  
   
