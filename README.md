@@ -1,8 +1,7 @@
 <h1 align="center">Rando.js</h1>
 <p align="center">The world's easiest, most powerful random function.</p>
 
-  <img src="http://randojs.com/images/smallsize.png" height="20"/>  
-</p>
+<p align="center"><img src="http://randojs.com/images/smallsize.png" height="20"/></p>
 ## V. 1.0.0  
 
 
