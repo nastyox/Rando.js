@@ -20,7 +20,7 @@ The world's easiest, most powerful random function.
 ### Examples  
   
    rando()  
-   // a floating-point number between 0 and 1 (could be exactly 0, but never exactly 1)  
+   ###### // a floating-point number between 0 and 1 (could be exactly 0, but never exactly 1)  
      
    rando(5)  
    // an integer between 0 and 5 (could be 0 or 5)  
