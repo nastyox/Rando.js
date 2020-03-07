@@ -18,9 +18,9 @@ The world's easiest, most powerful random function.
  
   
 ### Examples  
-  
+  ```
    rando()  
-   ###### // a floating-point number between 0 and 1 (could be exactly 0, but never exactly 1)  
+   // a floating-point number between 0 and 1 (could be exactly 0, but never exactly 1)  
      
    rando(5)  
    // an integer between 0 and 5 (could be 0 or 5)  
@@ -51,10 +51,10 @@ The world's easiest, most powerful random function.
      
    rando(null)  
    // ANY invalid arguments return false  
-  
+  ```
   
 ### &#8674; Prevent repetitions by grabbing a sequence and looping through it  
-  
+  ```
    randoSequence(5)  
    //a random integer between 5 and 10 (could be 5 or 10)  
      
@@ -75,3 +75,4 @@ The world's easiest, most powerful random function.
      
    randoSequence(null)  
    // ANY invalid arguments return false
+```
