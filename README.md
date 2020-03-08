@@ -6,14 +6,14 @@
 ## :thinking: Explanation  
 [Rando.js](https://randojs.com) helps JavaScript developers code randomness more simply and readably. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered. The best part? Our commands are extermely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  
   
-## :mag: How to use  
+## :zap: How to use  
    **Step 1:** Paste the following script tag into the head of your HTML document:<br/>```<script src="https://randojs.com/1.0.0.js"></script>```  
 
    **Step 2:** Use any of the commands explained at [https://randojs.com/](https://randojs.com)</a> in the document's JavaScript as you like.  
   
  
   
-## :zap: Examples  
+## :boom: Examples  
   ```
    rando()  
    // a floating-point number between 0 and 1 (could be exactly 0, but never exactly 1)  
