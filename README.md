@@ -58,16 +58,16 @@
    // an array of integers from 5 through 10 in random order  
      
    randoSequence(["eeny", "meeny", "miny", "moe"])  
-   // array of {index:..., value:...} objects representing the values of the provided array in random order  
+   // an array of {index:..., value:...} objects representing the values of the provided array in random order  
      
    randoSequence({species: "mouse", blind: true, count: 3})  
-   // array of {key:..., value:...} objects representing the properties of the provided object in random order  
+   // an array of {key:..., value:...} objects representing the properties of the provided object in random order  
      
    randoSequence($("input"))  
-   // array of {index:..., value:...} objects representing a jQuery elements from the provided jQuery element set in random order  
+   // an array of {index:..., value:...} objects representing a jQuery elements from the provided jQuery element set in random order  
      
    randoSequence("Good gravy!")  
-   // the characters of the provided string in random order  
+   // an array of the characters of the provided string in random order  
      
    randoSequence(null)  
    // ANY invalid arguments return false
