@@ -52,7 +52,7 @@
 ### &#8674; Prevent repetitions by grabbing a sequence and looping through it  
   ```
    randoSequence(5)  
-   //a random integer between 5 and 10 (could be 5 or 10)  
+   // an array of integers from 0 through 5 in random order  
      
    randoSequence(5, 10)  
    // an array of integers from 5 through 10 in random order  
