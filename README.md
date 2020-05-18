@@ -14,7 +14,7 @@
  
   
 ## :tada:  Examples  
-  ```
+  ```JavaScript
    rando()  
    // a floating-point number between 0 and 1 (could be exactly 0, but never exactly 1)  
      
@@ -50,7 +50,7 @@
   ```
   
 ### &#8674; Prevent repetitions by grabbing a sequence and looping through it  
-  ```
+  ```JavaScript
    randoSequence(5)  
    // an array of integers from 0 through 5 in random order  
      
