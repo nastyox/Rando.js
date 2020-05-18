@@ -9,7 +9,7 @@
 ## :zap:  Fast implementation  
    **Step 1:** Paste the following script tag into the head of your HTML document:<br/>
   ```JavaScript
-      <script src="https://randojs.com/1.0.0.js"></script>
+<script src="https://randojs.com/1.0.0.js"></script>
   ```  
 
    **Step 2:** Use any of the commands explained at [https://randojs.com/](https://randojs.com)</a> in the document's JavaScript as you like.  
