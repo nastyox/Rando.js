@@ -79,4 +79,4 @@
    // ANY invalid arguments return false
 ```
 
-<p align="center"><img src="http://randojs.com/images/bars.gif" width="100%"/></p>
+<p align="center"><img src="http://randojs.com/images/barsSmall.gif" width="100%"/></p>
