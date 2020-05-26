@@ -1,4 +1,4 @@
-<p align="center"><a href="#nastyox"><img src="http://randojs.com/images/shapeShifterGray.gif" height="60" style="opacity:0.86;"/></a></p>
+<p align="center"><a href="#nastyox"><img src="http://randojs.com/images/shapeShifterGray.gif" alt="Gray shape shifter" height="60"/></a></p>
 <h1 align="center">Rando.js</h1>
 <p align="center">The world's easiest, most powerful random function.</p>
 
@@ -45,4 +45,4 @@
    randoSequence(null)           //ANY invalid arguments return false
 ```
 <br/>
-<p align="center"><a href="#nastyox"><img src="http://randojs.com/images/barsSmall.gif" width="100%"/></a></p>
+<p align="center"><a href="#nastyox"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
