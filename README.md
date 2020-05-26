@@ -1,3 +1,4 @@
+<p align="center"><img src="http://randojs.com/images/blackShapeShifter.gif" height="60"/></p>
 <h1 align="center">Rando.js</h1>
 <p align="center">The world's easiest, most powerful random function.</p>
 
