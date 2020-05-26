@@ -78,5 +78,5 @@
    randoSequence(null)  
    // ANY invalid arguments return false
 ```
-
+<br/>
 <p align="center"><img src="http://randojs.com/images/barsSmall.gif" width="100%"/></p>
