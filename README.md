@@ -4,7 +4,7 @@
 
 <p align="center"><a href="https://github.com/nastyox/Rando.js/blob/master/1.0.0.js"><img src="http://randojs.com/images/smallsize.png" height="20"/></a></p><br/><br/>
 
-<p align="center"><a href="#nastyox"><img src="http://randojs.com/images/10fpswide.gif" width="100%"/></a><a href="#nastyox"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
+<p align="center"><a href="#nastyox"><img src="http://randojs.com/images/10fpswide.gif" width="100%"/></a><a href="#nastyox"><img src="http://randojs.com/images/dropShadow.png" width="100%" style="margin-top:-7px;"/></a></p><br/>
 
 ## :hear_no_evil:  What's all the hullabaloo?  
 <a href="https://randojs.com" target="_blank">Rando.js</a> helps JavaScript developers code randomness more simply and readably. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered. The best part? Our commands are extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  <br/><br/><br/>
