@@ -2,7 +2,10 @@
 <h1 align="center">Rando.js</h1>
 <p align="center">The world's easiest, most powerful random function.</p>
 
-<p align="center"><a href="https://github.com/nastyox/Rando.js/blob/master/1.0.0.js"><img src="http://randojs.com/images/smallsize.png" height="20"/></a></p><br/><br/>
+<p align="center">
+	<a href="https://github.com/nastyox/Rando.js/blob/master/1.0.0.js"><img src="http://randojs.com/images/smallsize.png" height="20"/></a>
+    <a href="https://twitter.com/intent/tweet?text=Ditch%20all%20that%20convoluted%20%22Math.random()%22%20code.%20Rando.js%20makes%20picking%20a%20number%201-100%20as%20simple%20as%20%22rando(1,%20100)%22,%20and%20it%20can%20do%20way%20more%20just%20as%20easily.&url=https://github.com/nastyox/Rando.js&hashtags=javascript,opensource,js,webdev,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
+</p><br/><br/>
 
 <p align="center"><a href="#nastyox"><img src="http://randojs.com/images/10fpswide.gif" width="100%"/></a><a href="#nastyox"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
