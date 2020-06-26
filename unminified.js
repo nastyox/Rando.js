@@ -113,7 +113,7 @@ function randoSequence(arg1, arg2){
             //string
             for(var i = 0; i < arg1.length; i++) arr[arr.length] = arg1.charAt(i);
         }
-        else if(isNumber(arg1) && typeof isUndefined(arg2)){
+        else if(isNumber(arg1) && isUndefined(arg2)){
             //int from 0 through max OR min through 0 if negative (inclusive of both min and max)
             return arg1 >= 0 ? randoSequence(0, arg1) : randoSequence(arg1, 0);
         }
