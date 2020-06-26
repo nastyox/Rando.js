@@ -1,9 +1,9 @@
 function rando(arg1, arg2, arg3){
     var isUndefined = (variable) => typeof variable === "undefined",
     isNumber = (num) => typeof num === "number" && !isNaN(num),
-    isString(str) => typeof str === "string",
-    isObject(obj) => typeof obj === "object",
-    isArray(arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array;
+    isString = (str) => typeof str === "string",
+    isObject = (obj) => typeof obj === "object",
+    isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array;
     
     try{
         if(arg1 !== null && arg2 !== null && arg3 !== null){
@@ -70,7 +70,9 @@ function rando(arg1, arg2, arg3){
         }
         return false;
     }
-    catch(err) return false;
+    catch(err){
+    	return false;
+    }
 }
 
 function randoSequence(arg1, arg2){
@@ -123,9 +125,12 @@ function randoSequence(arg1, arg2){
         }
         
         //shuffle values
-        for(i = arr.length - 1; i > 0; i--) var indexToSwapWith = rando(i), temp = arr[i], arr[i] = arr[indexToSwapWith], arr[indexToSwapWith] = temp;
+        var indexToSwapWith;
+        for(i = arr.length - 1; i > 0; i--) indexToSwapWith = rando(i), temp = arr[i], arr[i] = arr[indexToSwapWith], arr[indexToSwapWith] = temp;
         
         return arr;
     }
-    catch(err) return false;
+    catch(err){
+    	return false;
+    }
 }
