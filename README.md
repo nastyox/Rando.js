@@ -10,14 +10,14 @@
 <p align="center"><a href="#nastyox"><img src="http://randojs.com/images/10fpswide.gif" width="100%"/></a><a href="#nastyox"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
 ## :hear_no_evil:  What's all the hullabaloo?  
-<a href="https://randojs.com" target="_blank">Rando.js</a> helps JavaScript developers code randomness more simply and readably. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered. The best part? Our commands are extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  <br/><br/><br/>
+<a href="https://randojs.com" target="_blank">Rando.js</a> helps JavaScript developers code randomness more simply, readably, and securely. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered at a cryptographically strong level. The best part? Our library is extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  <br/><br/><br/>
 
 
 
 ## :zap:  Fast implementation  
    **Step 1:** Paste the following script tag into the head of your HTML document:<br/>
   ```JavaScript
-<script src="https://randojs.com/1.0.0.js"></script>
+<script src="https://randojs.com/1.1.0.js"></script>
   ```  
 
    **Step 2:** Use any of the commands explained at <a href="https://randojs.com" target="_blank">https://randojs.com/</a> in the document's JavaScript as you like.  <br/><br/><br/>
