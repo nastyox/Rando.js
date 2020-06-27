@@ -72,7 +72,7 @@ function rando(arg1, arg2, arg3){
         return false;
     }
     catch(err){
-    	return false;
+        return false;
     }
 }
 
@@ -132,33 +132,33 @@ function randoSequence(arg1, arg2){
         return arr;
     }
     catch(err){
-    	return false;
+        return false;
     }
 }
 
 //Human-readable version of 1.1.0.js (cryptographically strong)
-function rando(arg1, arg2, arg3, arg4){
+function rando(arg1, arg2, arg3){
     var isUndefined = (variable) => typeof variable === "undefined",
     isNumber = (num) => typeof num === "number" && !isNaN(num),
     isString = (str) => typeof str === "string",
     isObject = (obj) => typeof obj === "object",
     isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array,
     cryptoRandom = () => {
-		try{
-			var cryptoRandoms, cryptoRandomSlices = [], cryptoRandom;
-			while((cryptoRandom = "." + cryptoRandomSlices.join("")).length < 30){
-				cryptoRandoms = (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(20));
-				for(var i = 0; i < cryptoRandoms.length; i++){
-					var cryptoRandomSlice = cryptoRandoms[i].toString().slice(1);
-					if(cryptoRandomSlice.length > 0) cryptoRandomSlices[cryptoRandomSlices.length] = cryptoRandomSlice;
-				}
-			}
-			return Number(cryptoRandom);
-		}
-		catch(e){
-			return Math.random();
-		}
-	};
+        try{
+            var cryptoRandoms, cryptoRandomSlices = [], cryptoRandom;
+            while((cryptoRandom = "." + cryptoRandomSlices.join("")).length < 30){
+                cryptoRandoms = (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(20));
+                for(var i = 0; i < cryptoRandoms.length; i++){
+                    var cryptoRandomSlice = cryptoRandoms[i].toString().slice(1);
+                    if(cryptoRandomSlice.length > 0) cryptoRandomSlices[cryptoRandomSlices.length] = cryptoRandomSlice;
+                }
+            }
+            return Number(cryptoRandom);
+        }
+        catch(e){
+            return Math.random();
+        }
+    };
     
     try{
         if(arg1 !== null && arg2 !== null && arg3 !== null){
@@ -226,7 +226,7 @@ function rando(arg1, arg2, arg3, arg4){
         return false;
     }
     catch(e){
-    	return false;
+        return false;
     }
 }
 
@@ -286,6 +286,6 @@ function randoSequence(arg1, arg2){
         return arr;
     }
     catch(e){
-    	return false;
+        return false;
     }
 }
