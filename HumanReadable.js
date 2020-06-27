@@ -286,6 +286,6 @@ function randoSequence(arg1, arg2){
         return arr;
     }
     catch(e){
-    	return false
+    	return false;
     }
 }
