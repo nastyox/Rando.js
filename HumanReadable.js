@@ -147,9 +147,9 @@ function rando(arg1, arg2, arg3){
         try{
             var cryptoRandoms, cryptoRandomSlices = [], cryptoRandom;
             while((cryptoRandom = "." + cryptoRandomSlices.join("")).length < 30){
-                cryptoRandoms = (window.crypto || window.msCrypto).getRandomValues(new Uint8Array(20));
+                cryptoRandoms = (window.crypto || window.msCrypto).getRandomValues(new Uint32Array(5));
                 for(var i = 0; i < cryptoRandoms.length; i++){
-                    var cryptoRandomSlice = cryptoRandoms[i].toString().slice(1);
+                    var cryptoRandomSlice = cryptoRandoms[i].toString().slice(1, -1);
                     if(cryptoRandomSlice.length > 0) cryptoRandomSlices[cryptoRandomSlices.length] = cryptoRandomSlice;
                 }
             }
