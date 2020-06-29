@@ -7,7 +7,7 @@
     <a href="https://twitter.com/intent/tweet?text=Ditch%20all%20that%20convoluted%20%22Math.random()%22%20code.%20Rando.js%20makes%20picking%20a%20number%201-100%20as%20simple%20as%20%22rando(1,%20100)%22,%20and%20it%20can%20do%20way%20more%20just%20as%20easily.&url=https://github.com/nastyox/Rando.js&hashtags=javascript,opensource,js,webdev,developers"><img src="http://randojs.com/images/tweetShield.svg" alt="Tweet" height="20"/></a>
 </p><br/><br/>
 
-<p align="center"><a href="#nastyox"><img src="http://randojs.com/images/10fpswide.gif" width="100%"/></a><a href="#nastyox"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
+<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/10fpswide.gif" width="100%"/></a><a href="#nastyox"><img src="http://randojs.com/images/dropShadow.png" width="100%"/></a></p><br/>
 
 ## :hear_no_evil:  What's all the hullabaloo?  
 <a href="https://randojs.com" target="_blank">Rando.js</a> helps JavaScript developers code randomness more simply, readably, and securely. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, we've got you covered at a cryptographically strong level. The best part? Our library is extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement.  <br/><br/><br/>
@@ -50,6 +50,6 @@
    randoSequence(null)           //ANY invalid arguments return false
 ```
 <br/>
-<p align="center"><a href="#nastyox"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
+<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
 
 <p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://bytecrank.com/filebox/316d4df8eae0e148ef1237ead8118e03c7188b3aba829f9aaa42d1e53998c02856a84036913cccd69da3a6505bbf124efac43684a45fde319ab5866e114c0687/clients/randojs/starAsk.png" alt="Consider leaving a star at the top of this page if you'd like to see this project grow." height="30"/></a></p>
