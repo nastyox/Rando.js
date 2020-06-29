@@ -52,4 +52,4 @@
 <br/>
 <p align="center"><a href="#nastyox"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
 
-<p align="center"><a href="#"><img src="http://bytecrank.com/filebox/316d4df8eae0e148ef1237ead8118e03c7188b3aba829f9aaa42d1e53998c02856a84036913cccd69da3a6505bbf124efac43684a45fde319ab5866e114c0687/clients/randojs/starAsk.png" alt="Consider leaving a star at the top of this page if you'd like to see this project grow." height="30"/></a></p>
+<p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://bytecrank.com/filebox/316d4df8eae0e148ef1237ead8118e03c7188b3aba829f9aaa42d1e53998c02856a84036913cccd69da3a6505bbf124efac43684a45fde319ab5866e114c0687/clients/randojs/starAsk.png" alt="Consider leaving a star at the top of this page if you'd like to see this project grow." height="30"/></a></p>
