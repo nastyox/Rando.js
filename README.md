@@ -20,9 +20,9 @@
 <script src="https://randojs.com/2.0.0.js"></script>
   ```  
 Or, use npm:
-```
+```JavaScript
 //Install:
-npm i @nastyox/rando.js@2.0.0
+npm i @nastyox/rando.js
 
 //Then, paste this at the top of your JavaScript file:
 const randojs = require('@nastyox/rando.js'), rando = randojs.rando, randoSequence = randojs.randoSequence;
