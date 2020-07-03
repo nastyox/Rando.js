@@ -17,10 +17,17 @@
 ## :zap:  Fast implementation  
    **Step 1:** Paste the following script tag into the head of your HTML document:<br/>
   ```JavaScript
-<script src="https://randojs.com/1.1.0.js"></script>
+<script src="https://randojs.com/2.0.0.js"></script>
   ```  
+Or, use npm:
+```
+//Install:
+npm i @nastyox/rando.js@2.0.0
 
-   **Step 2:** Use any of the commands explained at <a href="https://randojs.com" target="_blank">https://randojs.com/</a> in the document's JavaScript as you like.  <br/><br/><br/>
+//Then, paste this at the top of your JavaScript file:
+const randojs = require('@nastyox/rando.js'), rando = randojs.rando, randoSequence = randojs.randoSequence;
+```
+   **Step 2:** Use any of the commands explained at <a href="https://randojs.com" target="_blank">https://randojs.com/</a> however you like.  <br/><br/><br/>
   
   
   
