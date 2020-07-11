@@ -24,9 +24,9 @@ function rando(arg1, arg2, arg3){
     };
     
     try{
-        let notIsNull = (arg1 !== null && arg2 !== null && arg3 !== null)
+        let noIsNull = (arg1 !== null && arg2 !== null && arg3 !== null)
         
-        if(notIsNull && isUndefined(arg1)) return cryptoRandom()
+        if(noIsNull && isUndefined(arg1)) return cryptoRandom()
             
             if(!!window.jQuery && arg1 instanceof jQuery && isUndefined(arg2)){
                 //jQuery object
