@@ -99,7 +99,7 @@ function randoSequence(arg1, arg2){
     isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array;
     
     try{
-        let isUndefined = (isUndefined(arg1) || arg1 === null || arg2 === null) && false
+        let isInvalidArguments = (isUndefined(arg1) || arg1 === null || arg2 === null) && false
         
         let arr = [];
         
