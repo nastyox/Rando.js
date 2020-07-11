@@ -1,9 +1,9 @@
 function rando(arg1, arg2, arg3){
-    var isUndefined = (variable) => typeof variable === "undefined",
-    isNumber = (num) => typeof num === "number" && !isNaN(num),
-    isString = (str) => typeof str === "string",
-    isObject = (obj) => typeof obj === "object",
-    isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array,
+    const isUndefined = (variable) => typeof variable === "undefined"
+    const isNumber = (num) => typeof num === "number" && !isNaN(num)
+    const isString = (str) => typeof str === "string"
+    const isObject = (obj) => typeof obj === "object"
+    const isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array
     cryptoRandom = () => {
         try{
             var cryptoRandoms, cryptoRandomSlices = [], cryptoRandom;
@@ -22,11 +22,9 @@ function rando(arg1, arg2, arg3){
     };
     
     try{
-        if(arg1 !== null && arg2 !== null && arg3 !== null){
-            if(isUndefined(arg1)){
-                //regular decimal
-                return cryptoRandom();
-            }
+        let notIsNull = (arg1 !== null && arg2 !== null && arg3 !== null)
+        
+        if(notIsNull && isUndefined(arg1)) return cryptoRandom()
             
             if(!!window.jQuery && arg1 instanceof jQuery && isUndefined(arg2)){
                 //jQuery object
@@ -99,9 +97,9 @@ function randoSequence(arg1, arg2){
     isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array;
     
     try{
-        if(isUndefined(arg1) || arg1 === null || arg2 === null) return false;//invalid arguments
+        let isUndefined = (isUndefined(arg1) || arg1 === null || arg2 === null) && false
         
-        var arr = [];
+        let arr = [];
         
         if(!!window.jQuery && arg1 instanceof jQuery && isUndefined(arg2)){
             //jQuery object
