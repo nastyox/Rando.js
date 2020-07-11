@@ -4,9 +4,11 @@ function rando(arg1, arg2, arg3){
     const isString = (str) => typeof str === "string"
     const isObject = (obj) => typeof obj === "object"
     const isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array
+    let cryptoRandoms
+    let cryptoRandomSlices = []
+    let cryptoRandom;
     cryptoRandom = () => {
         try{
-            var cryptoRandoms, cryptoRandomSlices = [], cryptoRandom;
             while((cryptoRandom = "." + cryptoRandomSlices.join("")).length < 30){
                 cryptoRandoms = (window.crypto || window.msCrypto).getRandomValues(new Uint32Array(5));
                 for(var i = 0; i < cryptoRandoms.length; i++){
