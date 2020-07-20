@@ -1,10 +1,11 @@
-function rando(arg1, arg2, arg3){
-    var isUndefined = (variable) => typeof variable === "undefined",
+var isUndefined = (variable) => typeof variable === "undefined",
     isNumber = (num) => typeof num === "number" && !isNaN(num),
     isString = (str) => typeof str === "string",
     isObject = (obj) => typeof obj === "object",
-    isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array,
-    cryptoRandom = () => {
+    isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array;
+
+function rando(arg1, arg2, arg3){
+    var cryptoRandom = () => {
         try{
             var cryptoRandoms, cryptoRandomSlices = [], cryptoRandom;
             while((cryptoRandom = "." + cryptoRandomSlices.join("")).length < 30){
@@ -92,12 +93,6 @@ function rando(arg1, arg2, arg3){
 }
 
 function randoSequence(arg1, arg2){
-    var isUndefined = (variable) => typeof variable === "undefined",
-    isNumber = (num) => typeof num === "number" && !isNaN(num),
-    isString = (str) => typeof str === "string",
-    isObject = (obj) => typeof obj === "object",
-    isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array;
-    
     try{
         if(isUndefined(arg1) || arg1 === null || arg2 === null) return false;//invalid arguments
         
