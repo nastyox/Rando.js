@@ -58,4 +58,4 @@ const randojs = require('@nastyox/rando.js'), rando = randojs.rando, randoSequen
 ```
 <br/>
 <p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
-<p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://randojs.com/images/backToTopButton.png" alt="Animated footer bars" height="29"/></a></p>
+<p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://randojs.com/images/backToTopButton.png" alt="Back to top" height="29"/></a></p>
