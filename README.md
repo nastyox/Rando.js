@@ -22,7 +22,7 @@
 Or, use npm:
 ```JavaScript
 //Install:
-npm i @nastyox/rando.js@2.0.1
+npm i @nastyox/rando.js
 
 //Then, paste this at the top of your JavaScript file:
 const randojs = require('@nastyox/rando.js'), rando = randojs.rando, randoSequence = randojs.randoSequence;
