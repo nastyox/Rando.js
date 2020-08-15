@@ -1,10 +1,9 @@
 //-----------------------------------
 // INSTRUCTIONS
 //-----------------------------------
-// This code will test all Rando.js functions to ensure they're working properly. To start 
-// testing, put this code in a <script> tag and add it to the <head> of the HTML document 
-// you'd like to test. Then, load that HTML document to view the results. Results will be 
-// written to the page and in the console.
+// This code will test all Rando.js functions to ensure they're working properly. All you 
+// need to do is run this code in the console of the HTML page you'd like to test. Results 
+// will be written to the page and in the console.
 
 var tests = 1;
 var passed = 0;
