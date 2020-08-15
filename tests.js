@@ -23,7 +23,6 @@ else{
 	logs += "<div style='padding:5px 0px;'><span style='background:red;color:white;padding:0px 5px;'>FAILURE:</span> You need to source in the Rando.js script. Visit <a href='https://randojs.com' target='_blank'>https://randojs.com/</a> to learn how.</div>";
 }
 
-var documentWritten = false;
 if(!!randojsLoaded){
 	if(typeof jQuery == "function" && typeof $ == "function"){
 		try{
