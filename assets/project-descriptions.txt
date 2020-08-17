@@ -1,0 +1,17 @@
+566 CHARACTERS:
+Rando.js helps JavaScript developers code randomness more simply, readably, and securely. Whether you need to find a random int/float between two numbers, pick a random value from an array, choose a random element from your jQuery object, grab a character from a string, toss a coin, or do anything of the like while even preventing repetitions, Rando.js has got you covered at a cryptographically strong level. The best part? This library is extremely lightweight and developer friendly- which means it won't take a toll on your project, and it's uber-simple to implement. 
+
+318 CHARACTERS:
+Rando.js makes JavaScript randomness more simple, readable, and secure. Whether you need to work with numbers, arrays, or any other data type while even preventing repetitions, this library has got you covered at a cryptographically strong level. The best part? It's extremely lightweight and uber-simple to implement.
+
+244 CHARACTERS:
+Rando.js makes JavaScript randomness more simple, readable, and secure. It works with every data type at a cryptographically strong level while even preventing repetitions. The best part? It's extremely lightweight and uber-simple to implement.
+
+71 CHARACTERS:
+Rando.js makes JavaScript randomness more simple, readable, and secure.
+
+61 CHARACTERS:
+Rando.js: The world's easiest, most powerful random function.
+
+39 CHARACTERS:
+Rando.js: Simple, secure JS randomness.
