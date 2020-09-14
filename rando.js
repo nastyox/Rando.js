@@ -1,5 +1,5 @@
 function rando(arg1, arg2, arg3){
-    var isUndefined = (variable) => typeof variable === "undefined",
+    const isUndefined = (variable) => typeof variable === "undefined",
     isNumber = (num) => typeof num === "number" && !isNaN(num),
     isString = (str) => typeof str === "string",
     isObject = (obj) => typeof obj === "object",
@@ -92,7 +92,7 @@ function rando(arg1, arg2, arg3){
 }
 
 function randoSequence(arg1, arg2){
-    var isUndefined = (variable) => typeof variable === "undefined",
+    const isUndefined = (variable) => typeof variable === "undefined",
     isNumber = (num) => typeof num === "number" && !isNaN(num),
     isString = (str) => typeof str === "string",
     isObject = (obj) => typeof obj === "object",
