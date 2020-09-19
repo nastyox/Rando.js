@@ -10,7 +10,7 @@ function rando(arg1, arg2, arg3){
             while((cryptoRandom = "." + cryptoRandomSlices.join("")).length < 30){
                 cryptoRandoms = (window.crypto || window.msCrypto).getRandomValues(new Uint32Array(5));
                 for(var i = 0; i < cryptoRandoms.length; i++){
-                    var cryptoRandomSlice = cryptoRandoms[i] < 4000000000 ? cryptoRandoms[i].toString().slice(1) : ""; 
+                    var cryptoRandomSlice = cryptoRandoms[i] < 4000000000 ? cryptoRandoms[i].toString().slice(1) : "";
                     if(cryptoRandomSlice.length > 0) cryptoRandomSlices[cryptoRandomSlices.length] = cryptoRandomSlice;
                 }
             }
