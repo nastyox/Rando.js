@@ -1,13 +1,14 @@
 try{var randoJsCopyOfCryptoUUIDa0d75fe829cf4fd0832ddc9c95aa13f5 = require('crypto');}
 catch(e){}
 
+var isUndefined = (variable) => typeof variable === "undefined",
+isNumber = (num) => typeof num === "number" && !isNaN(num),
+isString = (str) => typeof str === "string",
+isObject = (obj) => typeof obj === "object",
+isFunction = (fn) => typeof fn === "function",
+isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array;
+
 function rando(arg1, arg2, arg3){
-    var isUndefined = (variable) => typeof variable === "undefined",
-    isNumber = (num) => typeof num === "number" && !isNaN(num),
-    isString = (str) => typeof str === "string",
-    isObject = (obj) => typeof obj === "object",
-    isFunction = (fn) => typeof fn === "function",
-    isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array,
     cryptoRandom = () => {
         try{
             var cryptoRandoms, cryptoRandomSlices = [], cryptoRandom;
@@ -98,13 +99,6 @@ function rando(arg1, arg2, arg3){
 }
 
 function randoSequence(arg1, arg2){
-    var isUndefined = (variable) => typeof variable === "undefined",
-    isNumber = (num) => typeof num === "number" && !isNaN(num),
-    isString = (str) => typeof str === "string",
-    isObject = (obj) => typeof obj === "object",
-    isFunction = (fn) => typeof fn === "function",
-    isArray = (arr) => !isUndefined(arr) && arr !== null && arr.constructor === Array;
-    
     try{
         if(isUndefined(arg1) || arg1 === null || arg2 === null) return false;//invalid arguments
         
