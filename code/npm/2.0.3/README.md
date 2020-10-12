@@ -1,4 +1,4 @@
-# Rando.js, Version: 2.0.3 
+# Rando.js, Version: 2.0.3
 [![Rando.js: The world's easiest, most powerful random function.](https://randojs.com/images/npm-splash.png)](https://github.com/nastyox/Rando.js) 
 
 ## What's all the hullabaloo?
