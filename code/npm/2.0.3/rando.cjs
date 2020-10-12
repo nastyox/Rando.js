@@ -161,4 +161,4 @@ function randoSequence(arg1, arg2){
     }
 }
 
-module.exports.rando = rando, module.exports.randoSequence = randoSequence;
+exports.rando = rando, exports.randoSequence = randoSequence;
