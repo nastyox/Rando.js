@@ -26,6 +26,9 @@ npm i @nastyox/rando.js
 
 //Then, paste this at the top of your JavaScript file:
 const randojs = require('@nastyox/rando.js'), rando = randojs.rando, randoSequence = randojs.randoSequence;
+
+//Note: If your project is a module, you can paste this in your JavaScript file instead:
+import {rando, randoSequence} from '@nastyox/rando.js';
 ```
    **Step 2:** Use any of the commands explained at <a href="https://randojs.com" target="_blank">https://randojs.com/</a> however you like.  <br/><br/><br/>
   
