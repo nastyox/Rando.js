@@ -1,0 +1,33 @@
+{
+  "name": "@nastyox/rando.js",
+  "version": "2.0.5",
+  "description": "The world's easiest, most powerful random function.",
+  "main": "versions/require-compatible/rando-min.js",
+  "module": "versions/import-compatible/rando-min.js",
+  "exports": {
+    "import": "./versions/import-compatible/rando-min.mjs",
+    "require": "./versions/require-compatible/rando-min.js"
+  },
+  "scripts": {
+    "test": "node versions/require-compatible/test.js",
+    "import-test": "node versions/import-compatible/test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nastyox/Rando.js.git"
+  },
+  "keywords": [
+    "rando.js",
+    "randojs",
+    "rando",
+    "random",
+    "crypto",
+    "cryptographic"
+  ],
+  "author": "nastyox",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/nastyox/Rando.js/issues"
+  },
+  "homepage": "https://randojs.com"
+}
