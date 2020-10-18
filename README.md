@@ -25,7 +25,7 @@ Or, use npm:
 npm i @nastyox/rando.js
 
 //Then, paste this at the top of your JavaScript file:
-const randojs = require('@nastyox/rando.js'), rando = randojs.rando, randoSequence = randojs.randoSequence;
+const {rando, randoSequence} = require('@nastyox/rando.js');
 
 //Note: If your project is a module, you can paste this in your JavaScript file instead:
 import {rando, randoSequence} from '@nastyox/rando.js';
