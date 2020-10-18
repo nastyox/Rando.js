@@ -19,7 +19,7 @@ which means it won't take a toll on your project, and it's uber-simple to implem
 npm i @nastyox/rando.js
     
 //Then, paste this in your JavaScript file:
-const randojs = require('@nastyox/rando.js'), rando = randojs.rando, randoSequence = randojs.randoSequence;
+const {rando, randoSequence} = require('@nastyox/rando.js');
 
 //Note: If your project is a module, you can paste this in your JavaScript file instead:
 import {rando, randoSequence} from '@nastyox/rando.js';
