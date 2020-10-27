@@ -59,6 +59,12 @@ import {rando, randoSequence} from '@nastyox/rando.js';
    randoSequence("Good gravy!")  //an array of the characters of the provided string in random order  
    randoSequence(null)           //ANY invalid arguments return false
 ```
-<br/>
+
+
+
+## :clap:  Supporters
+[![Stargazers repo roster for @nastyox/Rando.js](https://reporoster.com/stars/nastyox/Rando.js)](https://github.com/nastyox/Rando.js/stargazers)
+[![Forkers repo roster for @nastyox/Rando.js](https://reporoster.com/forks/nastyox/Rando.js)](https://github.com/nastyox/Rando.js/network/members)
 <p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
+<br/>
 <p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://randojs.com/images/backToTopButton.png" alt="Back to top" height="29"/></a></p>
