@@ -59,7 +59,7 @@ import {rando, randoSequence} from '@nastyox/rando.js';
    randoSequence("Good gravy!")  //an array of the characters of the provided string in random order  
    randoSequence(null)           //ANY invalid arguments return false
 ```
-
+<br/><br/><br/>
 
 
 ## :clap:  Supporters
