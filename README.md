@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/shapeShifterGray.gif" alt="Gray shape shifter" height="60"/></a></p>
+<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/shapeShifterGrayTransparentBackground.gif" alt="Gray shape shifter" height="60"/></a></p>
 <h1 align="center">Rando.js</h1>
 <p align="center">The world's easiest, most powerful random function.</p>
 
@@ -65,6 +65,6 @@ import {rando, randoSequence} from '@nastyox/rando.js';
 ## :clap:  Supporters
 [![Stargazers repo roster for @nastyox/Rando.js](https://reporoster.com/stars/nastyox/Rando.js)](https://github.com/nastyox/Rando.js/stargazers)
 [![Forkers repo roster for @nastyox/Rando.js](https://reporoster.com/forks/nastyox/Rando.js)](https://github.com/nastyox/Rando.js/network/members)
-<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/barsSmall.gif" alt="Animated footer bars" width="100%"/></a></p>
+<p align="center"><a href="https://github.com/nastyox/Rando.js#nastyox"><img src="http://randojs.com/images/barsSmallTransparentBackground.gif" alt="Animated footer bars" width="100%"/></a></p>
 <br/>
-<p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://randojs.com/images/backToTopButton.png" alt="Back to top" height="29"/></a></p>
+<p align="center"><a href="https://github.com/nastyox/Rando.js#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
