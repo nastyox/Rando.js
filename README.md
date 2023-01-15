@@ -17,7 +17,7 @@
 ## :zap:  Fast implementation  
    **Step 1:** Paste the following script tag into the head of your HTML document:<br/>
   ```JavaScript
-<script src="https://randojs.com/2.0.0.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nastyox/Rando.js@master/code/plain-javascript/2.0.0/rando-min.js"></script>
   ```  
 Or, use npm:
 ```JavaScript
