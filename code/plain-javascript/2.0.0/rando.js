@@ -10,11 +10,15 @@ function rando(arg1, arg2, arg3) {
         const TWELVE = BigInt("12");
         const EXPONENT_BITS = BigInt("0x3FF0000000000000");
         cryptoRandom = () => {
-            const randomValues = new BigUint64Array(1);
-            crypto.getRandomValues(randomValues);
-            const ieeeBits = (randomValues[0] >> TWELVE) | EXPONENT_BITS;
-            randomValues[0] = ieeeBits;
-            return new Float64Array(randomValues.buffer)[0] - 1;
+            try {
+                const randomValues = new BigUint64Array(1);
+                crypto.getRandomValues(randomValues);
+                const ieeeBits = (randomValues[0] >> TWELVE) | EXPONENT_BITS;
+                randomValues[0] = ieeeBits;
+                return new Float64Array(randomValues.buffer)[0] - 1;
+            } catch (e) {
+                return Math.random();
+            }
         }
     } else {
         cryptoRandom = () => {
