@@ -4,40 +4,34 @@ function rando(arg1, arg2, arg3) {
         isString = (str) => typeof str === "string",
         isObject = (obj) => typeof obj === "object",
         isArray = (arr) =>
-            !isUndefined(arr) && arr !== null && arr.constructor === Array;
-    let cryptoRandom;
-    if (typeof window.BigInt !== "undefined" && window.BigInt !== null) {
-        const TWELVE = BigInt("12");
-        const EXPONENT_BITS = BigInt("0x3FF0000000000000");
-        cryptoRandom = () => {
-            try {
-                const randomValues = new BigUint64Array(1);
-                crypto.getRandomValues(randomValues);
-                const ieeeBits = (randomValues[0] >> TWELVE) | EXPONENT_BITS;
-                randomValues[0] = ieeeBits;
-                return new Float64Array(randomValues.buffer)[0] - 1;
-            } catch (e) {
-                return Math.random();
+            !isUndefined(arr) && arr !== null && arr.constructor === Array,
+        setExponent = (n) => ((n & 0x1fffff) | 0x3ff00000) >>> 0;
+
+    const BIG_ENDIAN =
+        new Uint16Array(new Uint8Array([0x45, 0xfe]).buffer)[0] === 0x45fe;
+    const cryptoRandom = () => {
+        try {
+            const random = new Uint32Array(2);
+            (window.crypto || window.msCrypto).getRandomValues(random);
+            const upperHalf = setExponent(random[0]);
+            const lowerHalf = random[1];
+            if (BIG_ENDIAN) {
+                return (
+                    new Float64Array(
+                        new Uint32Array([upperHalf, lowerHalf]).buffer
+                    )[0] - 1
+                );
+            } else {
+                return (
+                    new Float64Array(
+                        new Uint32Array([lowerHalf, upperHalf]).buffer
+                    )[0] - 1
+                );
             }
+        } catch (e) {
+            return Math.random();
         }
-    } else {
-        cryptoRandom = () => {
-            try{
-                var cryptoRandoms, cryptoRandomSlices = [], cryptoRandom;
-                while((cryptoRandom = "." + cryptoRandomSlices.join("")).length < 30){
-                    cryptoRandoms = (window.crypto || window.msCrypto).getRandomValues(new Uint32Array(5));
-                    for(var i = 0; i < cryptoRandoms.length; i++){
-                        var cryptoRandomSlice = cryptoRandoms[i] < 4000000000 ? cryptoRandoms[i].toString().slice(1) : "";
-                        if(cryptoRandomSlice.length > 0) cryptoRandomSlices[cryptoRandomSlices.length] = cryptoRandomSlice;
-                    }
-                }
-                return Number(cryptoRandom);
-            }
-            catch(e){
-                return Math.random();
-            }
-        };
-    }
+    };
 
     try {
         if (arg1 !== null && arg2 !== null && arg3 !== null) {
