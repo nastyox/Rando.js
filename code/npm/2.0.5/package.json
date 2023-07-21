@@ -3,7 +3,7 @@
   "version": "2.0.5",
   "description": "The world's easiest, most powerful random function.",
   "main": "versions/require-compatible/rando-min.js",
-  "module": "versions/import-compatible/rando-min.js",
+  "module": "versions/import-compatible/rando-min.mjs",
   "exports": {
     "import": "./versions/import-compatible/rando-min.mjs",
     "require": "./versions/require-compatible/rando-min.js"
